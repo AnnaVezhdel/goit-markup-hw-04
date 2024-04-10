@@ -90,7 +90,7 @@ transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu-page:hover::after {
+.menu-page::after {
     content: "";
     position: absolute;
     left: 0;
@@ -366,8 +366,12 @@ color: #434455;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-link:hover {
+.icon-link:hover,
+.icon-link:focus {
     background-color: #31d0aa;
+}
+.icon-icon {
+    fill: #f4f4fd;
 }
 .icon-team-link {
     width: 100%;
@@ -397,7 +401,7 @@ color: #434455;
     margin-right: 120px;
 }
 .footer-social-text {
-    color: #f4f4fd;
+    color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
