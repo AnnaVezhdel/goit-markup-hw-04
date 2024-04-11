@@ -341,7 +341,7 @@ color: #434455;
 .icon-team-list {
     display: flex;
     gap: 24px;
-    padding-left: 16px;
+    justify-content: center;
 }
 .icon-item {
     width: 40px;
@@ -380,7 +380,8 @@ color: #434455;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-team-link:hover {
+.icon-team-link:hover,
+.icon-team-link:focus {
     background-color: #404bbf;
 }
 .footer-content {
